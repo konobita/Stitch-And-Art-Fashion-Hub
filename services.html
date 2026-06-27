@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services | Stitch And Art Fashion Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Block -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="./index.html" class="brand-logo">STITCH AND ART</a>
+        <nav class="main-nav">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./services.html" class="active">Services</a>
+          <a href="./index.html#collection">Collection</a>
+          <a href="#contact-booking">Contact</a>
+        </nav>
+        <a href="#contact-booking" class="btn btn-primary">Book A Fitting</a>
+      </div>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Couture Excellence</span>
+        <h1>Tailored To Your Story</h1>
+        <p>From initial design sketches to the final hand-stitched hem, explore our bespoke fashion experiences crafted exclusively for your silhouette.</p>
+      </div>
+    </section>
+
+    <!-- Main Services Directory -->
+    <section class="services-directory">
+      <div class="container">
+        
+        <!-- Service Detail Tier 1 -->
+        <div class="service-row">
+          <div class="service-media">
+            <div class="media-placeholder img-bespoke"></div>
+          </div>
+          <div class="service-info">
+            <span class="service-tag">Signature Experience</span>
+            <h2>Bespoke Gowns & Dresses</h2>
+            <p>Bring your dream ensemble to life. Whether it is an architectural evening gown, a romantic bridal masterpiece, or refined day luxury, our custom dressmaking process centers entirely around your vision and precise proportions.</p>
+            <ul class="spec-list">
+              <li>Individual concept sketching & fabric consultation</li>
+              <li>Premium material curation (Pure silk, premium laces, custom chiffon)</li>
+              <li>3 personalized multi-stage fittings</li>
+            </ul>
+            <div class="pricing-tier">Starting from <span>₹25,000</span></div>
+          </div>
+        </div>
+
+        <!-- Service Detail Tier 2 (Reversed Visual Order) -->
+        <div class="service-row reverse">
+          <div class="service-media">
+            <div class="media-placeholder img-alterations"></div>
+          </div>
+          <div class="service-info">
+            <span class="service-tag">Precision Fit</span>
+            <h2>Luxury Alterations & Restyling</h2>
+            <p>Every garment deserves to fit like a second skin. We provide world-class tailoring adjustments for your high-end ready-to-wear clothing, vintage heirlooms, or bridal party garments to dramatically elevate their silhouette.</p>
+            <ul class="spec-list">
+              <li>Waist, hem, and structural bodice modifications</li>
+              <li>Intricate beadwork, lacework, and lining repairs</li>
+              <li>Expedited timelines available for emergency event requests</li>
+            </ul>
+            <div class="pricing-tier">Starting from <span>₹3,500</span></div>
+          </div>
+        </div>
+
+        <!-- Service Detail Tier 3 -->
+        <div class="service-row">
+          <div class="service-media">
+            <div class="media-placeholder img-styling"></div>
+          </div>
+          <div class="service-info">
+            <span class="service-tag">Curated Direction</span>
+            <h2>Bridal Wardrobe Styling</h2>
+            <p>Complete style orchestration for your unforgettable milestones. We guide you through coordinating structural silhouettes, choosing contrasting luxury accessories, and ensuring visual harmony across your entire wedding party.</p>
+            <ul class="spec-list">
+              <li>Comprehensive bridal mood boards and fabric palettes</li>
+              <li>On-site dressing assistance and emergency styling kits on event day</li>
+              <li>Coordination planning for bridesmaids and rehearsal looks</li>
+            </ul>
+            <div class="pricing-tier">Packages from <span>₹45,000</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- The Consultation Process Block -->
+    <section class="process-banner">
+      <div class="container banner-card">
+        <h2>Experience The Art Of Custom Fit</h2>
+        <p>Every custom look begins with an open conversation about your style goals, measurements, and lifestyle preferences. Secure your consultation today.</p>
+        <div class="banner-actions">
+          <a href="#contact-booking" class="btn btn-white">Schedule Fitting Session</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking / Contact Form Block -->
+    <section class="booking-section" id="contact-booking">
+      <div class="container booking-grid">
+        <div class="booking-context">
+          <span class="section-label">Reservations</span>
+          <h2>Book A Fitting Studio Session</h2>
+          <p>Please complete our consultation intake details. Our design consultants will contact you within 24 hours to confirm your studio calendar slot.</p>
+          <div class="studio-notes">
+            <p><strong>Studio Hours:</strong> Mon - Sat: 10:00 AM - 7:00 PM</p>
+            <p><strong>Phone Support:</strong> +91 98765 43210</p>
+          </div>
+        </div>
+        <form class="booking-form">
+          <div class="form-group">
+            <label for="client-name">Full Name</label>
+            <input type="text" id="client-name" placeholder="Ananya Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="client-email">Email Address</label>
+            <input type="email" id="client-email" placeholder="hello@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service-type">Required Service</label>
+            <select id="service-type">
+              <option value="bespoke">Bespoke Custom Gown</option>
+              <option value="alterations">Luxury Alterations</option>
+              <option value="bridal">Bridal Styling Package</option>
+              <option value="consultancy">Fashion Wardrobe Edits</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="notes">Share Your Design Ideas (Optional)</label>
+            <textarea id="notes" rows="4" placeholder="Describe the occasion, preferred fabrics, or reference themes..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Request Appointment</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Stitch And Art Fashion Hub. Designed for timeless style and polished presence.</p>
+      </div>
+    </footer>
+  </body>
+</html>

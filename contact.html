@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Studio Booking | Stitch And Art Fashion Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main Header Navigation -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="./index.html" class="brand-logo">STITCH AND ART</a>
+        <nav class="main-nav">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./services.html">Services</a>
+          <a href="./collection.html">Collection</a>
+          <a href="./contact.html" class="active">Contact</a>
+        </nav>
+        <a href="#booking-form" class="btn btn-primary">Book A Fitting</a>
+      </div>
+    </header>
+
+    <!-- Animated Contact Hero Section -->
+    <section class="contact-hero animate-fade-in">
+      <div class="container hero-content">
+        <span class="eyebrow">Connect With Our Studio</span>
+        <h1>Let's Create Elegance Together</h1>
+        <p>Whether you're ready to sketch your custom bridal gown or simply have questions about scheduling a fitting session, we are here to guide you.</p>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Grid -->
+    <section class="contact-wrapper">
+      <div class="container contact-grid">
+        
+        <!-- Column 1: Studio Identity Info Cards -->
+        <div class="info-sidebar animate-slide-up">
+          <div class="info-card">
+            <div class="icon-shape">
+              <!-- Location Marker SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div class="info-details">
+              <h3>The Atelier Location</h3>
+              <p>123 Pink Avenue, Fashion District,<br>Mumbai, MH 400001</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-shape">
+              <!-- Phone Receiver SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div class="info-details">
+              <h3>Direct Inquiries</h3>
+              <p class="interactive-link">+91 98765 43210</p>
+              <p class="interactive-link">hello@stitchandart.com</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-shape">
+              <!-- Clock Outline SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div class="info-details">
+              <h3>Studio Fitting Hours</h3>
+              <p>Monday – Saturday: 10:00 AM – 7:00 PM</p>
+              <p class="note">Fittings are exclusively by pre-scheduled appointment.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Micro-Animated Form Block -->
+        <div class="form-container animate-slide-up-delayed" id="booking-form">
+          <form class="interactive-contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your appointment query has been beautifully received.');">
+            <h2>Design Inquiry Intake</h2>
+            <p>Tell us about the event landscape or custom pieces you envision.</p>
+
+            <div class="animated-input-group">
+              <input type="text" id="name" placeholder=" " required />
+              <label for="name">Your Full Name</label>
+            </div>
+
+            <div class="animated-input-group">
+              <input type="email" id="email" placeholder=" " required />
+              <label for="email">Email Address</label>
+            </div>
+
+            <div class="animated-input-group">
+              <select id="timeline-urgency" required>
+                <option value="" disabled selected hidden></option>
+                <option value="immediate">Within 1 Month (Urgent Event)</option>
+                <option value="mid">1 to 3 Months</option>
+                <option value="relaxed">Greater than 3 Months</option>
+              </select>
+              <label for="timeline-urgency">Desired Completion Timeline</label>
+            </div>
+
+            <div class="animated-input-group">
+              <textarea id="message" rows="4" placeholder=" " required></textarea>
+              <label for="message">Describe your styling inspirations or outfit requirements...</label>
+            </div>
+
+            <button type="submit" class="btn btn-submit">
+              <span>Transmit Creative Inquiry</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="arrow-icon"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Core Interactive Global Footer Area -->
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Stitch And Art Fashion Hub. Crafted for unique stories and flawless presence.</p>
+      </div>
+    </footer>
+  </body>
+</html>

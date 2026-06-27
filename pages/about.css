@@ -1,0 +1,4 @@
+/* specific styles for about page */
+.page-hero{padding:4rem 0}
+.page-hero h1{font-size:2.4rem;color:var(--accent-dark)}
+.page-section{padding:2rem 0;border-top:1px solid rgba(0,0,0,0.04)}
