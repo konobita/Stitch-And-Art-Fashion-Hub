@@ -308,6 +308,10 @@ img {
 .gallery-card:nth-child(2) { background-image: url('https://5.imimg.com/data5/ECOM/Default/2024/8/447142639/RM/IM/ZO/225888632/a4566a2e-21e5-4312-b97b-2ced07332966-500x500.jpg'); }
 .gallery-card:nth-child(3) { background-image: url('https://myclo.in/cdn/shop/files/image00260.jpg?v=1758023264'); }
 .gallery-card:nth-child(4) { background-image: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80'); }
+.gallery-card:nth-child(5) { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh9HGmEDa1azgYGswveSal59rHHRK9vRvBnwuwQ5jNkA&s=10'); }
+.gallery-card:nth-child(6) { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjkd80b38nvDDuf2OjtxVuauIHcDI3EnvDrlyJxewdMlabYvvv-QhhrwwQ&s=10'); }
+.gallery-card:nth-child(7) { background-image: url('https://nayoclothing.com/cdn/shop/files/JBN0021_6_400x.jpg?v=1772514271'); }
+.gallery-card:nth-child(8) { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFhjKdAX2wFpe_UKPbVT5v7ddjvH_FepHQP9R6PI2jeQ&s=10'); }
 
 .gallery-card span {
   position: absolute;
